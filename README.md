@@ -23,7 +23,7 @@
 	- No jsx, sempre que quero usar Js e não html, faço dentro de {}
 
 
-#Todolist App - Frontend
+# Todolist App - Frontend
 	- Usados: webpack,react, bootstrap, font-awesome
 	
 	- npm init -y
@@ -38,8 +38,8 @@
 	- npm i pm2 -g
 	- pm2 status / pm2 monit
 
-	
-#TodoList App - Backend
+
+# TodoList App - Backend
 	- Usados: express, nodejs, mongodb (mondog term), Postman(extensão chrome)
 	
 	- npm init -y
