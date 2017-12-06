@@ -3,9 +3,5 @@ import React from 'react'
 export default props => (
     <div>
         <h1>List</h1>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
 )
