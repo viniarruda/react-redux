@@ -50,3 +50,11 @@
 # Rodando todolist
 	- mongod
 	- npm run dev back / front
+
+
+
+# Diferença entre arrow function com () e {}
+
+As duas fazem exatamente a mesma coisa. Se quer uma função que apenas retorne uma expressão JSX, basta usar o primeiro exemplo, mas se vc precisar fazer algum processamento (por exemplo na linha 9) no métodos antes de retorna um JSX justificaria vc usar o segundo formato.
+
+Esse tipo de função é chamada de Arrow Functions e elas são otimizadas para funções de uma única linha de código. Por essa razão, quando vc adiciona as chaves ({} ), ou seja, define o corpo da função, é perdido o return explicito e vc tem que informar o return.

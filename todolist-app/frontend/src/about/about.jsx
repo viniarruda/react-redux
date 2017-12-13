@@ -5,6 +5,6 @@ export default props => (
     <div className='container'>
         <PageHeader name='Sobre' small='Nós'></PageHeader>
 
-        <h2>Teste</h2>
+        <p>Nós somos ... </p>
     </div>
 )
