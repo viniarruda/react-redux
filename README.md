@@ -39,6 +39,12 @@
 	- npm i pm2 -g
 	- pm2 status / pm2 monit
 
+__________________________________________________________________________________________________________________________________________________________________
+
+Com redux:
+
+	- npm i --save-dev react-redux@5.0.2 redux@3.6.0
+
 
 # TodoList App - Backend
 	- Usados: express, nodejs, mongodb (mongod term), Postman(extensão chrome)

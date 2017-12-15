@@ -1,0 +1,47 @@
+.btn {
+    margin-right: 5px;
+
+}
+
+.card-todo {
+    width: 350px;
+    height: 150px;
+    display: inline-block;
+    background-color: #fff000;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 12px rgba(0,0,0,0.2);
+}
+
+.card-todo:nth-child(1n){
+    background-color: #27556C;
+}
+
+.card-todo:nth-child(2n){
+    background-color: #832124;
+}
+
+.card-todo:nth-child(3n){
+    background-color: #4B2D73;
+}
+
+#card-text {
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#card-text.markedAsDone {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.card-buttons {
+    text-align: center;
+}
+
+.btn-card {
+    padding: 6px 45px;
+}

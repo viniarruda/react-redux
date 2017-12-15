@@ -1,14 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Family from './family'
-import Member from './member'
+import { combineReducers, createStore } from 'redux'
+import { Provider } from 'react-redux'
+import Field from './field'
+import fieldReducer from './fieldReducer'
+
+//reducers são funções
+const reducers = combineReducers({
+	field: fieldReducer,
+	key2: () => 'teste'
+})
 
 ReactDOM.render(
-	<Family lastName='Souza' >
-		<Member name='Vinicius' />
-		<Member name='Berry' />
-		<Member name='Feijao' />
-		<Member name='Teste' />
-	</Family>
+	<Provider store={createStore(reducers)}>
+		<Field initialValue='Teste' />
+	</Provider>
 	, document.getElementById('app')
 )
